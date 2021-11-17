@@ -12,11 +12,14 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel="stylesheet" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" rel="stylesheet" />
         <link rel="stylesheet" href="/css/style.css">
-        <title>Traveroy</title>
+        <title>{{ $title }}</title>
     </head>
     <body>
+        <x-navbar></x-navbar>
 
         {{ $slot }}
+
+        <x-footer></x-footer>
         
         <!-- Optional JavaScript; choose one of the two! -->
         <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>

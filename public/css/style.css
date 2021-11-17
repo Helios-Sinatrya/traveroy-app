@@ -22,7 +22,9 @@
 .font-bold{
     font-weight: 700;
 }
-
+a{
+    text-decoration: none;
+}
 
 /* NAVBAR */
 
@@ -71,6 +73,9 @@
     box-shadow: none !important;
     background-color: black;
 }
+.modal-header{
+    border: none;
+}
 
 
 /* LANDING-FACE */
@@ -116,6 +121,9 @@
     height: 15em;
     border-radius: 10px;
 }
+.slide-body h4 p {
+    text-decoration: none;
+}
 .slick-disabled{
     display: none !important;
 }
@@ -135,10 +143,10 @@
     border-radius: 10px;
 }
 
-
-
-
-
+/* footer */
+footer{
+    border-top: solid 1px #b4b4b4;
+}
 
 
 
