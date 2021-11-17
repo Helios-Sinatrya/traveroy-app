@@ -19,7 +19,7 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="nav-link btn btn-primary login-btn" href="{{ Route('login') }}">Sign In</button>
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#LoginModal" class="nav-link btn btn-primary login-btn">Login</button>
                     <x-modal-login></x-modal-login>
                 </li>
             </ul>

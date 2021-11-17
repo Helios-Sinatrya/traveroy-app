@@ -11,7 +11,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&family=Philosopher:wght@400;700&family=Righteous&display=swap" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel="stylesheet" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" rel="stylesheet" />
-        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/app.css">
         <title>{{ $title }}</title>
     </head>
     <body>
