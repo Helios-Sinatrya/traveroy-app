@@ -7,6 +7,7 @@
             </div>
             <div class="modal-body">
                 <form action="">
+                    @csrf
                     <label for="email-input form-label">Email</label>
                     <input type="email" class="form-control mb-3" id="email-input">
                     <label for="pass-input form-label">Password</label>
@@ -15,7 +16,7 @@
                         <button type="submit" name="submit" class="btn btn-primary mx-auto login-btn">Login</button>
                         <p class="mx-auto mt-2">Or</p>
                     </div>
-                    <p>Don't have an account? <a href="">Register Here</a></p>
+                    <p>Don't have an account? <a href="/register">Register Here</a></p>
                 </form>
             </div>
         </div>

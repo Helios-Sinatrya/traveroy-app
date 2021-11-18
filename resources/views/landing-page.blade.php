@@ -28,7 +28,7 @@
                                     <div class="slide-img mb-2">
                                         <img src="/img/near-pp.jpg" alt="">
                                     </div>
-                                    <div class="slide-body">
+                                    <div class="slide-body font-outfit">
                                         <h4 class="text-dark mb-0 font-bold">Resinda Hotel</h4>
                                         <p class="text-dark mb-0">Tanjung Priok, Jakarta Utara</p>
                                         <div class="slide-rating d-flex align-items-center">
