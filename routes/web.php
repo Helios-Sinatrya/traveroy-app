@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\RegistrationController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,4 +16,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'landing-page');
 Route::view('/login', 'auth.login')->name('login');
-Route::view('/register', 'auth.register');
+Route::view('/object', 'pages.dtl_object');
+
+Route::middleware('guest')->group(function () {
+    Route::get('register', [RegistrationController::class, 'create'])->name('register');
+    Route::post('register', [RegistrationController::class, 'store']);
+});

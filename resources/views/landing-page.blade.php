@@ -22,7 +22,7 @@
                     <h4 class="font-medium font-outfit text-dark">Place Near You</h4>
                     <div class="near-place recommend">
                         @for($i = 0; $i < 10; $i++)
-                        <a href="">
+                        <a href="/object">
                             <div>
                                 <div class="slide-item mx-2">
                                     <div class="slide-img mb-2">
